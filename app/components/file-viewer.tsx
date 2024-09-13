@@ -79,7 +79,7 @@ const FileViewer = () => {
       </div>
       <div className={styles.fileUploadContainer}>
         <label htmlFor="file-upload" className={styles.fileUploadBtn}>
-          Attach files
+          Attach file with your story
         </label>
         <input
           type="file"

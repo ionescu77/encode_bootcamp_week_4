@@ -32,7 +32,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #efefef;
+  background-color: #d5ddf0;
   cursor: pointer;
   max-width: 600px;
   width: 120px;
@@ -43,5 +43,5 @@
 }
 
 .category:hover {
-  background-color: #e3e3eb;
+  background-color: #c9d5f0;
 }

@@ -14,15 +14,23 @@ const Home = () => {
   return (
     <main className={styles.main}>
       <div className={styles.title}>
-        Explore sample apps built with Assistants API
+        Characters RAG
       </div>
       <div className={styles.container}>
+        This application extract characters from your story. 
+      </div>
+      <div className={styles.container}>
+        <a className={styles.category} href="/examples/file-search">
+          Continue
+        </a>
+      </div>
+      {/* <div className={styles.container}>
         {Object.entries(categories).map(([name, url]) => (
           <a key={name} className={styles.category} href={`/examples/${url}`}>
             {name}
           </a>
         ))}
-      </div>
+      </div> */}
     </main>
   );
 };
